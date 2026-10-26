@@ -32,6 +32,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# Datos locales de usuarios y notas
+/data/
+/backend/node_modules/
+/backend/dist/
+/backend/coverage/
 
 # vercel
 .vercel
